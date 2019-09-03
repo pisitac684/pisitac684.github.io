@@ -1,0 +1,68 @@
+body {
+    background-color: cyan;
+    color: blue;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    margin: 0;}
+a{
+    text-decoration: none; 
+    color: yellowgreen;
+}
+
+a:hover {
+    color: blueviolet;
+    background-color: cyan;
+}
+a:visited {
+    color: blueviolet
+}
+
+.container {
+    height: auto;
+    margin: 0px 100px
+}
+
+/* Debug Aid: Begin */
+.bg-cadet {
+    background-color: whitesmoke
+}
+/* Debug Aid: END */
+.logo {
+    text-align: center;
+}
+.menu-primer ul {
+    background-color: greenyellow;
+    border-radius: 100px; 
+    box-shadow: 
+        0 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(0, 0, 0, 0.14),
+        0 1px 18px 0 rgba(0, 0, 0, 0.12);
+}
+.menu-primer li {
+    display: inline-block;
+}
+.menu-primer a {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 6px 10px;
+    letter-spacing:
+}
+.menu-primer .active {
+    background-color: cyan;
+    color: blue;
+}
+.jumbotron {
+    background-color: whitesmoke;
+    border: solid 2px whitesmoke;
+    border-radius: 8px;
+    padding: 10px 20 px;
+}
+.jumbotron h1{
+    margin: 4px 20px; 
+    font-size: 28px;
+}
+.copyright p {
+    font-size: 14px;
+    color: black;
+}.bg-coral {
+    background-color: whitesmoke;
+}
